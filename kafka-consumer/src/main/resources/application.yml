@@ -1,0 +1,17 @@
+server:
+  port: 8085
+kafka:
+  url: ${KAFKA_URL:localhost:9092}
+  topic:
+    name: dev_env
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5432/supermarket}
+    username: postgres
+    password: admin1234
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  liquibase:
+    change-log: classpath:liquibase/master.xml

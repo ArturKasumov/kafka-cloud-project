@@ -1,0 +1,6 @@
+com\arturk\service\KafkaConsumerService.class
+com\arturk\entity\Product.class
+com\arturk\config\KafkaConsumerConfig.class
+com\arturk\enums\CategoryEnum.class
+com\arturk\KafkaConsumerApplication.class
+com\arturk\entity\repository\ProductRepository.class

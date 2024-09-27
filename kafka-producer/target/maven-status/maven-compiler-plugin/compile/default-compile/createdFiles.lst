@@ -1,0 +1,6 @@
+com\arturk\service\ProductService.class
+com\arturk\config\KafkaProducerConfig.class
+com\arturk\enums\CategoryEnum.class
+com\arturk\KafkaProducerApplication.class
+com\arturk\controller\ProductController.class
+com\arturk\dto\Product.class
